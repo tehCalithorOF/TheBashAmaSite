@@ -1,16 +1,70 @@
+.sofia-sans-<uniquifier > {
+    font-family: "Sofia Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 5;
+    font-style: normal;
+}
+
+.press-start-2p-regular {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.newsletter {
+    text-align: center;
+    color: white;
+    font-size: 0030px;
+    font-family: "Press Start 2P", system-ui;
+}
+
+.newsletter2 {
+    text-align: center;
+    color: white;
+    font-size: 0020px;
+    font-family: "Press Start 2P", system-ui;
+    margin: 100px;
+}
+
+.yellow-n {
+    text-align: center;
+    color: yellow;
+    font-size: 0025px;
+    font-family: "Press Start 2P", system-ui;
+}
+
+.cock {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 5px 20px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 2.5px;
+    font-weight: bold;
+}
+
 p {
+    color: ghostwhite;
   font-family: Arial, sans-serif;
-  font-size: 30px;
-  line-height: 1.6;
-  text-align: left;  
-  text-shadow: 2px 4px 9px rgba(0, 0, 0, 0.5);
+  font-size: 25px;
+  line-height: 1.3;
+  text-align: center;
+  text-shadow: 2px 6px 9px rgba(0, 0, 0, 3);
 }
 
 .special {
-  font-family: Pixelify Sans;
-  color: #3a1841;
-  font-weight: bold;
-  text-align: center;
+    font-size: 35px;
+    font-family: "Sofia Sans", sans-serif;
+    color: #f7a74a;
+    font-weight: bold;
+    text-align: center;
+    -webkit-text-stroke: 5px #d17838;
+    paint-order: stroke fill;
+    text-shadow: 2px 16px 9px rgba(0, 0, 0, 7);
 }
 
 h1 {
@@ -23,15 +77,26 @@ h1 {
 .titleimage {
   display:block;
   margin: auto;
-  width: 50%;
+  width: 33.33%;
+}
+
+.gaster {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
 }
 
 .version {
-  font-family: Pixelify Sans;
-  color: #f4ffb6;
-  margin-bottom: auto;
-  text-align: right;
-  font-size 18px;
+    font-family: "Sofia Sans", sans-serif;
+    color: #f53b8b;
+    -webkit-text-stroke: 2.5px #d62b97;
+    paint-order: stroke fill;
+    margin-bottom: auto;
+    text-align: right;
+    font-size 15px;
 }
 
 .info {
@@ -47,7 +112,7 @@ h1 {
 }
 
 .socialicon {
-  margin: 7%;
+  margin: 5%;
   width: 100%;
 }
 
@@ -67,11 +132,16 @@ h1 {
 }
 
 .funn {
-  opacity: 0.27;
+  opacity: 0.15;
   display:block;
   margin: auto;
-  width: 50%;
+  width: 15%;
 }
 
-
+body {
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
